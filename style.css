@@ -1,0 +1,54 @@
+#titulo{
+    color: white;
+}
+
+#botao{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.pai{
+    display: flex;
+    justify-content: center;
+    margin-top: 22rem;
+}
+
+.botaoEscuro{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5px;
+}
+
+.containerEscuro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    height: 15rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.temaEscuro{
+    background-color: black;
+}
